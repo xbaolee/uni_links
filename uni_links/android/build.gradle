@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'name.xbaolee.uni_links'
+
     compileSdkVersion 28
 
     defaultConfig {
